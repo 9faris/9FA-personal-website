@@ -19,6 +19,9 @@ html{
     --whiteish: #fbeec1;
 }
 
+a{
+    color: crimson;
+}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -372,19 +375,13 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 80%;
+    width: 100%;
 }
 .skills-content .right .css::before{
-    width: 30%;
+    width: 60%;
 }
 .skills-content .right .js::before{
-    width: 1%;
-}
-.skills-content .right .php::before{
-    width: 0%;
-}
-.skills-content .right .mysql::before{
-    width: 0%;
+    width: 30%;
 }
 
 /* teams section styling */
