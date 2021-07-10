@@ -190,7 +190,8 @@ section .title::after{
   display: flex;
 }
 .home .max-width .row{
-  margin-right: 0;
+    margin-right: 0;
+    margin-top: 40%;
 }
 .home .home-content .text-1{
     font-size: 27px;
