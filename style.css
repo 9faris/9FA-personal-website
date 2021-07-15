@@ -802,3 +802,32 @@ footer span a:hover{
                       #fs-frm fieldset.locale select[name="state"] {
                         margin-right: 3%;
                       }
+
+
+.anim{
+    display : flex;
+    margin-top: 300px;
+    margin-left: 900px;
+    position: absolute;
+    pointer-events: none;
+}
+
+@media (max-width: 1130px){
+    .anim{
+        display: flex;
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 150px;
+        margin-right: -250px;
+    }
+}
+
+@media (max-width: 500px){
+    .anim{
+        display : flex;
+        position: absolute;
+        margin-left: -45px;
+        margin-top: -130px;
+        margin-right: 80px;
+    }
+}
